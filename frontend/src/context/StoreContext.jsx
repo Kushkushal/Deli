@@ -7,7 +7,7 @@ const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({});  // Initialize as empty object
 
 
-    const url = "http://localhost:4000"
+    const url = "https://deli-backennd.onrender.com"
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([])
 
